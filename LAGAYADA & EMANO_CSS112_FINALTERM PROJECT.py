@@ -57,6 +57,7 @@ class Game:
 
     # Setting up Difficulty Levels
     def set_difficulty(self):
+        # On screen User Input 
         difficulty = self.screen.textinput("Difficulty", "Choose difficulty (easy/hard): ")
 
         if difficulty == "easy":
